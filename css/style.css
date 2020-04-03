@@ -80,6 +80,10 @@ a {
     color: #db5424;
 }
 
+p{
+	color:#333;
+}
+
 .siteTitle {
     background: #F8F8FF;
     color: #FAC609;
@@ -202,6 +206,7 @@ h2 {
 }
 
 #skill{
+	color:#333;
 	padding-bottom:30px;
 	margin-left:80px;
  	margin-right:80px;
