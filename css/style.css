@@ -5,6 +5,7 @@ html{
     font-size:62.5%;
     font-style:normal;
     background-color:#F8F8FF;	
+    min-width:800px;
 
 }
 nav {
@@ -15,6 +16,7 @@ nav {
 nav ul {
     margin: 0;
     padding: 0;
+    min-width:800px;
 }
 
 nav ul li {
@@ -32,45 +34,45 @@ nav ul li a{
     color: #333;
 }
 #gnav span {
-  position: relative;
-  display: block;
-  cursor: pointer;
+    position: relative;
+    display: block;
+    cursor: pointer;
 }
 
 #gnav span:before, span:after {
-  content: '';
-  position: absolute; 
-  height: 3px;
-  top: 115%;
-  width: 0%;
+    content: '';
+    position: absolute; 
+    height: 3px;
+    top: 115%;
+    width: 0%;
   
-  margin-top: 13px;
-  background: #faa;
+    margin-top: 13px;
+    background: #faa;
 }
 #gnav span:before{
-  left: 0%;
+    left: 0%;
 }
 
 #gnav span:after {
-  right: 0%;
-  background: #FAC609;
-  transition: width 0.3s cubic-bezier(0.22, 0.61, 0.36, 1);
+    right: 0%;
+    background: #FAC609;
+    transition: width 0.3s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
 #gnav span:hover:before {
-  background: #db5424;
-  width: 100%;
-  transition: width 0.3s cubic-bezier(0.22, 0.61, 0.36, 1);
+    background: #db5424;
+    width: 100%;
+    transition: width 0.3s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
 #gnav span:hover:after {
-  background: transparent;
-  width: 100%;
-  transition: 0s;
+    background: transparent;
+    width: 100%;
+    transition: 0s;
 }
 
 body{
-       font-size:2.1rem;
+    font-size:2.1rem;
     line-height: 1.5;
     text-align: center;
 
@@ -93,22 +95,20 @@ p{
     padding: 180px 0;
 }
 .fixed{
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 1000;
-  box-shadow: 0px 0px 0px rgba(0,0,0);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 0px 0px rgba(0,0,0);
 }
 
-active{
-  color: #db5424;
-}
+
 h2 {
-  color: #db5424;
-  font-size: 6rem;
-  margin-top: 30px;
-  text-align: left;
-  margin-left: 32px;
+    color: #db5424;
+    font-size: 6rem;
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 32px;
 }
 
 #works{
@@ -118,15 +118,15 @@ h2 {
 }
 
 #works .sample {
-  display: inline-block;
-  z-index: 0;
-  width: 350px;
-  height: 250px;
-  object-fit: cover;
-  object-position: 50% 20%
+    display: inline-block;
+    z-index: 0;
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    object-position: 50% 20%
 }
 #works ul li{
-  display:inline-block;
+    display:inline-block;
     z-index: 0;
     margin-left: 3%;
     margin-right: 3%;
@@ -217,6 +217,7 @@ h2 {
     //background-color:#FAC609;
     float: left;
     width: 33%;
+
     border-right:medium dotted #FAC609;
 }
 #skill div.blockb {
@@ -226,7 +227,7 @@ h2 {
     border-right:medium dotted #FAC609;
 }
 #skill div.blockc {
-	//background-color:#FAC609;
+	background-color:#FAC609;
 	float: left;
 	width: 33%;
    
