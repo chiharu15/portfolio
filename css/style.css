@@ -214,14 +214,22 @@ h2 {
  	margin-right:80px;
 }
 #skill div.blocka {
-   float: left;
-   width: 33%;
-   border-right:medium dotted #FAC609;
+    //background-color:#FAC609;
+    float: left;
+    width: 33%;
+    border-right:medium dotted #FAC609;
 }
 #skill div.blockb {
-   float: left;
-   width: 33%;
-   border-right:medium dotted #FAC609;
+	//background-color:#FAC609;
+    float: left;
+    width: 33%;
+    border-right:medium dotted #FAC609;
+}
+#skill div.blockc {
+	//background-color:#FAC609;
+	float: left;
+	width: 33%;
+   
 }
 #skill div{
 	line-height:40px;
@@ -245,7 +253,7 @@ footer .copy{
 }
 footer a{
 	font-size:20px;
-	font-weight:bolder;
+	font-weight:bold;
 	word-spacing: 30px;
 	text-decoration: none;
 	color:#333;
